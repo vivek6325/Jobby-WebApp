@@ -1,6 +1,47 @@
-In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
+<h1 style="
+  color: #5b14c7; 
+  font-weight: 1000;
+">Jobby App</h1>
 
-### Refer to videos below:
+The **Jobby App** is a user-friendly platform designed for job seekers to explore employment opportunities with ease. It provides a smooth interface for browsing jobs, applying filters, and accessing detailed job information.  
+
+---
+
+## ✨ Features  
+
+- **User Interface**  
+  - Developed separate pages for **Login, Home, Jobs, and Job Details**.  
+  - Built with reusable **React components** leveraging props, state, events, and form handling.  
+
+- **Authentication**  
+  - Secure login using **username and password**.  
+  - On successful login, a **JWT token** is generated and stored locally.  
+  - Token is sent in API headers for user authorization.  
+
+- **Routing**  
+  - Implemented navigation with **React Router** (`Route`, `Switch`, `Link`).  
+  - Ensures seamless transitions across Login, Home, Jobs, and Job Details.  
+
+- **Filtering & Search**  
+  - Users can **search jobs by title**.  
+  - Apply filters for **employment type** and **salary range**.  
+  - Filters are passed as **query parameters** in API calls for refined results.  
+
+- **Security**  
+  - **Protected routes** prevent unauthorized access.  
+  - Unauthenticated users are redirected to the Login page automatically.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: React JS, JavaScript, CSS  
+- **Routing**: React Router  
+- **APIs**: REST API Calls  
+- **Authentication**: JWT Tokens, Cookies, Local Storage  
+
+---
+### Videos :
 
 <div style="text-align: center;">
   <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
@@ -17,7 +58,7 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
   </video>
 </div>
 <br/>
-
+<!--  
 ### Design Files
 
 <details>
@@ -430,3 +471,5 @@ Returns a response containing the job details
 > - Don't change the component folder names as those are the files being imported into the tests.
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
+-->
